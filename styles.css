@@ -2,7 +2,15 @@ body {
     background-color: rgb(28, 28, 28);
     color: #e8eadf;
 }
+.centrar{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
 
+.foto4{
+    margin:auto;
+}
 .infor {
     padding: 5%;
 }
