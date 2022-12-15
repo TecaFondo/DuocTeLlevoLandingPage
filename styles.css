@@ -42,6 +42,7 @@ body {
 #fotos {
     width: 15rem;
     margin-left: 3rem;
+    border-radius: 30px;
 }
 @media (max-width:1300px) {
     .wrapper{
@@ -96,7 +97,13 @@ body {
 }
 
 @media (max-width:768px) {
-   
+    
+    .descargaCelu img{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 50vw;
+    }
     .one {
         grid-column: 1;
         grid-row: 1;
@@ -139,6 +146,7 @@ body {
 }
 
 @media (max-width:450px) {
+    
     .wrapper{
         padding-left: 10%;
     }
