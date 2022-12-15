@@ -44,7 +44,15 @@ body {
     margin-left: 3rem;
     border-radius: 30px;
 }
+.descargaCelu img{
+    height: 0;
+}
 @media (max-width:1300px) {
+    .QR{
+        display: flex;
+        width: 50%;
+        margin: auto;
+    }
     .wrapper{
         margin: 0 auto;
     }
@@ -68,6 +76,7 @@ body {
     }
 }
 @media (min-width:1024px){
+    
     .carousel-item{
         height: 70vh !important;
     }
@@ -97,12 +106,15 @@ body {
 }
 
 @media (max-width:768px) {
-    
+    .QR{
+        height: 0;
+    }
     .descargaCelu img{
         margin: auto;
         display: flex;
         justify-content: center;
         width: 50vw;
+        height: auto;
     }
     .one {
         grid-column: 1;
