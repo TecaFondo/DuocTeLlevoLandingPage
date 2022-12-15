@@ -48,6 +48,12 @@ body {
     height: 0;
 }
 
+.QR{
+    display: flex;
+    width: 30%;
+    margin: auto;
+}
+
 @media (max-width:1300px) {
     .QR{
         display: flex;
