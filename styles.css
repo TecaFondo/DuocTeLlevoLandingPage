@@ -47,6 +47,7 @@ body {
 .descargaCelu img{
     height: 0;
 }
+
 @media (max-width:1300px) {
     .QR{
         display: flex;
